@@ -8,6 +8,7 @@
 ## Ideas
 ### Approaches
  - Generate using musical psychology models
+ - Declarative language for music generation. (or a lisp???)
  
 ### Algorithms
  - Markov Models
