@@ -1,25 +1,12 @@
-# music-ai
+# Plan
 
-## Schedule
- - Draw out software design
- - Start with pure python, fill out object oriented model
- - 
- 
+Insert high-level design graphic here.
+
 ## Ideas
 ### Approaches
  - Generate using musical psychology models
  - Declarative language for music generation. (or a lisp???)
- 
-### Algorithms
- - Markov Models
- - Generative Grammars
- - Transition Networks
- - Chaos and Self-Similarity
- - Genetic Algorithms
- - Cellular Automata
- - Artificial Neural Networks
- - Artificial Intelligence
- 
+
 ### Applications
  - Write ambient piano music
  - Eurorack modules that generates music
@@ -31,4 +18,4 @@
 
 ## Resources
  - Computers in Iribe with GPUs
- - 
+
