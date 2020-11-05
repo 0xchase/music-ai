@@ -31,3 +31,12 @@ Insert high-level design graphic here.
  - Build an album to demonstrate it's capabilities
  - Eurorack module that write melodies based on chord input
  - Talk about AI daw based on tracktion with AudioProgrammer
+
+## Other tools
+ - Lyrics generator with GPT-3
+ - Profound poem generator with GPT-3
+ - Album cover art generator
+   - Start with abstract shapes (person could draw these), then stylize
+   - Start with GAN face, then stylize
+   - Start with cool text, then stylize
+   - Start with Blender or physics simulatino, then stylize

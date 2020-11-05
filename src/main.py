@@ -10,12 +10,11 @@ session.add_track(Track("Guitar"))
 session.add_track(Track("Drums"))
 session.add_track(Track("FX"))
 
-session.get_track("Guitar").add_clip(Clip(16))
+session.get_track("Guitar").add_clip(Clip(4))
 
 print(session)
 
 random = RandomClipGenerator()
 
-stream = random.generate()
-stream.show("text")
+clip = random.generate()
 
