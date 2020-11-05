@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from song.session import *
+from clip.generators.random import RandomClipGenerator
 
 session = Session("Test Session")
 session.add_track(Track("Piano"))
@@ -11,3 +12,11 @@ session.add_track(Track("FX"))
 session.get_track("Guitar").add_clip(Clip(16))
 
 print(session)
+
+print("---")
+
+clip = RandomClipGenerator()
+print(clip)
+
+stream = clip.generate()
+stream.show("text")
