@@ -1,31 +1,33 @@
 from termcolor import colored
 import music21
-from .measure import Measure
+from .note import Note
 
 class Clip:
     def __init__(self, length: int, name: str = "Unnamed Clip"):
         self.name = name
         self.length = length
-        self._measures = []
-        for _ in range(0, length):
-            self._measures.append(Measure())
+        self._notes = {}
 
-    def append(self, n):
-        self._measures.append(n)
+    def add_note(self, note: Note, beat: int):
+        if not beat in self._notes.keys():
+            self._notes[beat] = []
+        
+        self._notes[beat].append(note)
 
     def __delitem__(self, key):
-        del _measures[key]
+        pass
 
     def __getitem__(self, key):
-        return _measures[key]
+        pass
 
     def __setitem__(self, key, value):
-        _measures[key] = value
+        pass
 
     def __str__(self):
         ret = ""
-        for note in self._measures:
-            ret += str(note) + ", "
+        for beat in self._notes.keys():
+            for note in self._notes[beat]:
+                ret += note.name + ", "
 
         ret = ret.strip(", ")
         return colored("Clip", "magenta") + ": " + self.name + " (" + ret + ")"
