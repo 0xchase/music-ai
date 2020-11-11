@@ -1,4 +1,3 @@
-# music-ai
+# music23
 
-We need a name for this framework but I can't think of a good one. 
-
+The todo list for each person can be found in the plan/ folder
