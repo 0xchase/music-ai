@@ -1,3 +1,3 @@
 # music23
 
-The todo list for each person can be found in the `plan/` folder
+The todo can be found in the `plan/` folder
